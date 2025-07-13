@@ -1,4 +1,4 @@
-📝 Test Case: TC001 – Login Functionality
+📝Test Case: TC001 – Login Functionality
 Module: Authentication / Login
 Tested By: Mike Diaz
 Date: (Insert Test Date)
@@ -19,7 +19,7 @@ Email: testuser@example.com
 Password: P@ssw0rd
 
 
-✅ Test Case: TC002 – Invalid Login (Incorrect Password)
+📝Test Case: TC002 – Invalid Login (Incorrect Password)
 Preconditions: User must have a valid account
 Test Steps:
 
@@ -40,7 +40,7 @@ Postconditions:
 User remains on login page
 
 
-✅ Test Case: TC003 – Empty Fields (No Input)
+📝Test Case: TC003 – Empty Fields (No Input)
 Preconditions: None
 Test Steps:
 
@@ -59,7 +59,7 @@ Postconditions:
 User is not logged in
 
 
-✅ Test Case: TC004 – Password Reset (Valid Email)
+📝Test Case: TC004 – Password Reset (Valid Email)
 Preconditions: User must have a valid account
 Test Steps:
 
