@@ -90,3 +90,50 @@ Screenshot: empty_fields_no_error.png
 This issue could cause confusion for users who forget their login credentials.
 
 May result in unnecessary server requests due to lack of front-end validation.
+--------------------------------------------------------------------------------------------------
+
+Here’s the JIRA ticket template for the “Empty Fields – No Input” bug report.
+
+Summary:
+Login form allows submission with empty fields (no client-side validation)
+
+Description:
+When both the email and password fields are left empty and the user clicks the "Login" button, the form is submitted without any error or validation message. The page refreshes but does not indicate what went wrong.
+
+Steps to Reproduce:
+Go to the login page: https://example-ecommerce.com/login
+
+Leave the Email field empty
+
+Leave the Password field empty
+
+Click the Login button
+
+Expected Result:
+User should see a validation message such as:
+
+“Email and password are required.”
+
+Actual Result:
+No error message is displayed. The page reloads silently without feedback.
+
+Severity: Medium
+Priority: High
+Environment:
+OS: Windows 11
+
+Browser: Chrome v125
+
+Device: Desktop
+
+Test Environment: Staging
+
+Build Version: v1.2.5
+
+Attachments:
+Screenshot: empty_fields_no_error.png (attach actual screenshot)
+
+(Optional) Video recording
+
+Additional Notes:
+This issue could cause confusion for users who forget their login credentials and may result in unnecessary server requests due to lack of front-end validation.
