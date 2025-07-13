@@ -1,0 +1,86 @@
+📝 Test Case: TC001 – Login Functionality
+Module: Authentication / Login
+Tested By: Mike Diaz
+Date: (Insert Test Date)
+Preconditions: User must have a valid account
+
+✅ Test Steps
+Step No.	Action	Expected Result	Actual Result
+1	Navigate to the login page	Login page is displayed	
+2	Enter valid email	Email is accepted	
+3	Enter valid password	Password is accepted	
+4	Click on Login button	User is redirected to dashboard/home page	
+
+Postconditions: User should be logged in successfully
+Test Data:
+
+Email: testuser@example.com
+
+Password: P@ssw0rd
+
+
+✅ Test Case: TC002 – Invalid Login (Incorrect Password)
+Preconditions: User must have a valid account
+Test Steps:
+
+Navigate to the login page
+
+Enter a valid email: testuser@example.com
+
+Enter an incorrect password: wrongpassword
+
+Click the "Login" button
+
+Expected Result:
+
+Error message appears: "Invalid credentials"
+
+Postconditions:
+
+User remains on login page
+
+
+✅ Test Case: TC003 – Empty Fields (No Input)
+Preconditions: None
+Test Steps:
+
+Navigate to the login page
+
+Leave both fields empty
+
+Click the "Login" button
+
+Expected Result:
+
+Validation message: "Email and password are required"
+
+Postconditions:
+
+User is not logged in
+
+
+✅ Test Case: TC004 – Password Reset (Valid Email)
+Preconditions: User must have a valid account
+Test Steps:
+
+Click “Forgot Password” on the login page
+
+Enter valid email: testuser@example.com
+
+Click "Submit"
+
+Expected Result:
+
+Message: "A password reset link has been sent to your email"
+
+Postconditions:
+
+User receives reset email
+
+Let me know if you want:
+
+The same test cases in PDF
+
+A sample bug report for any of these
+
+More test cases (e.g., unregistered email, password visibility toggle, session timeout)
